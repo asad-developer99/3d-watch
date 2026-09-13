@@ -2,7 +2,7 @@
 
 import React, { createContext, useContext, useState, ReactNode } from "react";
 
-export type ColorwayId = "first" | "second" | "third" | "fourth";
+export type ColorwayId = "first" | "second" | "third" | "fourth" | "fifth" | "sixth";
 
 export interface ColorwayInfo {
   id: ColorwayId;
@@ -50,6 +50,24 @@ export const COLORWAYS: Record<ColorwayId, ColorwayInfo> = {
     metalColor: "#fde2d2",
     dialColor: "#cbb1a0",
     description: "Proprietary 5N rose gold enriched with platinum for enduring luster and warm architectural elegance.",
+  },
+    fifth: {
+    id: "fifth",
+    name: "Matte Black Ceramic",
+    tag: "05",
+    swatch: "#1c1c1e",
+    metalColor: "#141414",
+    dialColor: "#0a0a0a",
+    description: "High-tech matte black ceramic case, scratch-resistant and featherlight, with a stealth monochrome dial.",
+  },
+    sixth: {
+    id: "sixth",
+    name: "Diamond Noir",
+    tag: "06",
+    swatch: "#1a1a1a",
+    metalColor: "#0d0d0d",
+    dialColor: "#000000",
+    description: "18K black gold case fully paved with 2.4ct hand-set VVS diamonds, paired with a mirror-black onyx dial — the manufacture's most exclusive limited edition.",
   },
 };
 

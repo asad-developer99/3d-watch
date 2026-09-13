@@ -7,7 +7,7 @@ import { ArrowDown } from "lucide-react";
 export default function HeroSection() {
   const { colorway, setColorway, activeColorInfo } = useWatch();
 
-  const colorwaysList: ColorwayId[] = ["first", "second", "third", "fourth"];
+  const colorwaysList: ColorwayId[] = ["first", "second", "third", "fourth", "fifth", "sixth"];
 
   return (
     <section id="overview" className="relative w-full min-h-screen flex flex-col justify-between px-6 py-28 lg:px-16 lg:py-32 pointer-events-none">
