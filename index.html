@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/x-icon" href="/favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>FS 60P - The timeless automatic watch by 60fps</title>
+
+		<meta property="og:title" content="FS 60P - The timeless automatic watch by 60fps" />
+		<meta property="og:image" content="https://thewatch.60fps.fr/share-image.webp" />
+		<meta property="og:url" content="https://thewatch.60fps.fr" />
+		<meta property="og:type" content="website" />
+
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:title" content="FS 60P - The timeless automatic watch by 60fps" />
+		<meta name="twitter:image" content="https://thewatch.60fps.fr/share-image.webp" />
+
+		<style>
+			#loader {
+				position: fixed;
+				inset: 0;
+				background: #EBEBEB;
+				z-index: 1000;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				pointer-events: all;
+			}
+			#loader svg {
+				position: absolute;
+				inset: -100%;
+				margin: auto;
+				max-width: 95%;
+				max-height: 95%;
+				min-width: 500px;
+			}
+			#loader div {
+				font-size: 11px;
+				color: #000;
+				font-family: 'Inter', sans-serif;
+			}
+			#loader div span {
+				color: #0006;
+			}
+			@media (min-width: 1024px) {
+				#loader svg {
+					max-width: 80%;
+					max-height: 80%;
+				}
+				#loader div {
+					font-size: .8333333333vw;
+				}
+			}
+
+			.progress-arc {
+				transform: rotate(-180deg) scale(-1, 1);
+  				transform-origin: center;
+				stroke-dasharray: 2168;
+				stroke-dashoffset: 2168;
+				animation: fill-circle 1.2s ease-in-out forwards;
+				}
+
+				@keyframes fill-circle {
+				from { stroke-dashoffset: 2168; }
+				to   { stroke-dashoffset: 0; }
+			}
+
+		</style>
+		<script type="module" crossorigin src="/assets/index-Ck-pEZ8v.js"></script>
+		<link rel="stylesheet" crossorigin href="/assets/index-DSKOTUpi.css">
+	</head>
+
+	<body>
+		<div id="app">
+			<div id="loader">
+				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 700 700">
+				<path
+					stroke-opacity="1"
+					stroke="#DCDCDC"
+					d="M350 695c190.538 0 345-154.462 345-345S540.538 5 350 5 5 159.462 5 350s154.462 345 345 345Z"
+				/>
+				<path
+					class="progress-arc"
+					stroke-opacity="1"
+					stroke-width="3"
+					stroke="#D3D3D3"
+					d="M350 695c190.538 0 345-154.462 345-345S540.538 5 350 5 5 159.462 5 350s154.462 345 345 345Z"
+				/>
+			</svg>
+			<div><span>Now</span> loading</div>
+			</div>
+			<div id="canvas-wrapper"></div>
+			<div id="root"></div>
+		</div>
+	</body>
+</html>

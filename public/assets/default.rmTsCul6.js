@@ -1,0 +1,1 @@
+const I="data:application/json;base64,ewoJIm1hdGVyaWFscyI6IHsKCQkiVG9ydXMiOiB7CgkJCSJjb2xvciI6ICIjM2ZlNzkwIgoJCX0sCgkJIlBsYW5lIjoge30sCgkJIkljb3NwaGVyZSI6IHt9LAoJCSJDb25lIjoge30KCX0KfQo=";export{I as default};

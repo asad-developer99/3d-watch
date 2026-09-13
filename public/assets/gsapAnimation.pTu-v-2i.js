@@ -1,0 +1,1 @@
+import{z as e}from"./index-Ck-pEZ8v.js";const u=r=>s=>{const t=e.timeline({paused:!0});return r(t,s),{duration:t.totalDuration()*1e3,tick:a=>t.progress(a)}},i=r=>s=>{const t=e.timeline({paused:!0});return r(t,s),{duration:t.totalDuration()*1e3,tick:(a,n)=>t.progress(n)}};export{i as a,u as g};

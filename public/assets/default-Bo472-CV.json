@@ -1,0 +1,256 @@
+{
+	"materials": {
+		"metal-glossy": {
+			"color": "#d5d5d5",
+			"roughness": 0.1,
+			"metalness": 1
+		},
+		"metal-brushed": {
+			"color": "#ededed",
+			"roughness": 0.32,
+			"roughnessMapIntensity": 1,
+			"metalness": 1,
+			"normalScale": [
+				1,
+				-1
+			]
+		},
+		"metal-semiGlossy": {
+			"color": "#d5d5d5",
+			"roughness": 0.0025,
+			"metalness": 1
+		},
+		"white": {
+			"color": "#ffffff",
+			"roughness": 0.2565,
+			"metalness": 0.3,
+			"envMapIntensity": 3,
+			"ambientIntensity": 0
+		},
+		"-numbers-nekst": {
+			"roughness": 1,
+			"metalness": 0,
+			"normalScale": [
+				5,
+				-55
+			],
+			"transparent": false,
+			"envMapIntensity": 1.5
+		},
+		"fs60p": {
+			"roughness": 0.4,
+			"metalness": 1,
+			"envMapIntensity": 1.5,
+			"normalScale": [
+				5,
+				-5
+			]
+		},
+		"-ruby": {
+			"roughness": 0,
+			"metalness": 1,
+			"envMapIntensity": 5,
+			"color": "#713e72",
+			"envMapRotation": [
+				0,
+				-3,
+				0,
+				"XYZ"
+			]
+		},
+		"metal-circles": {
+			"color": "#e5e5e5",
+			"roughness": 0,
+			"metalness": 1
+		},
+		"-glass": {
+			"roughness": 0,
+			"opacity": 0.36,
+			"color": "#ffffff",
+			"metalness": 1
+		},
+		"plastic-black-noise": {
+			"opacity": 1
+		},
+		"metal-glossy-ext": {
+			"color": "#dfdfdf",
+			"roughness": 0,
+			"metalness": 1
+		},
+		"white.001": {
+			"roughness": 1,
+			"color": "#ffffff",
+			"envMapIntensity": 2,
+			"metalness": 0.52
+		},
+		"metal-brushed-ext": {
+			"color": "#ffffff",
+			"roughness": 0.3,
+			"roughnessMapIntensity": 1,
+			"envMapIntensity": 1,
+			"metalness": 1,
+			"normalScale": [
+				0.4,
+				-0.4
+			]
+		},
+		"metal-glossy-ext.001": {
+			"color": "#dbdbdb",
+			"roughness": 0,
+			"metalness": 1
+		},
+		"dial": {
+			"roughness": 0,
+			"color": "#8c8c8c",
+			"metalness": 1,
+			"ambientIntensity": 0,
+			"emissive": "#000000"
+		},
+		"metal-glossy-no-bake": {
+			"color": "#d5d5d5",
+			"roughness": 0.26,
+			"metalness": 1
+		},
+		"metal-geneva": {
+			"normalScale": [
+				0.25,
+				-0.25
+			],
+			"roughness": 0.1541,
+			"metalness": 1
+		},
+		"glow": {},
+		"automaticChronograph": {},
+		"grey.6": {},
+		"-moon": {},
+		"shadow-planes": {},
+		"day-ring": {},
+		"moon-bg": {},
+		"white-no-bake": {},
+		"secondmetal-brushed-ext": {
+			"color": "#6a6a6a",
+			"roughness": 1,
+			"roughnessMapIntensity": 1,
+			"envMapIntensity": 1,
+			"metalness": 0,
+			"normalScale": [
+				0,
+				0
+			]
+		},
+		"thirdmetal-brushed-ext": {
+			"color": "#ffebc6",
+			"roughness": 0.21,
+			"roughnessMapIntensity": 1,
+			"envMapIntensity": 0.5,
+			"metalness": 1,
+			"normalScale": [
+				0.4,
+				-0.4
+			],
+			"additiveEnvMapIntensity": 0.5,
+			"additiveEnvMapRotation": [
+				0,
+				0,
+				0,
+				"XYZ"
+			]
+		},
+		"fourthmetal-brushed-ext": {
+			"color": "#fde2d2",
+			"roughness": 0,
+			"roughnessMapIntensity": 1,
+			"envMapIntensity": 1,
+			"metalness": 1,
+			"normalScale": [
+				0.4,
+				-0.4
+			]
+		},
+		"secondmetal-glossy-ext": {
+			"color": "#6e6e6e",
+			"roughness": 0,
+			"metalness": 1
+		},
+		"thirdmetal-glossy-ext": {
+			"color": "#ffebc6",
+			"roughness": 0.16,
+			"metalness": 1,
+			"envMapIntensity": 0.5,
+			"additiveEnvMapIntensity": 0.5
+		},
+		"fourthmetal-glossy-ext": {
+			"color": "#fdd8c3",
+			"roughness": 0,
+			"metalness": 1
+		},
+		"single-metal-glossy": {
+			"roughness": 0.1,
+			"metalness": 1,
+			"color": "#fbfbfb",
+			"envMapRotation": [
+				0,
+				0,
+				2,
+				"XYZ"
+			],
+			"additiveEnvMapIntensity": 0.3,
+			"additiveEnvMapRotation": [
+				0,
+				0,
+				0,
+				"XYZ"
+			]
+		},
+		"single-metal-brushed": {
+			"roughness": 0.39,
+			"metalness": 1,
+			"color": "#cccccc",
+			"envMapRotation": [
+				0,
+				0,
+				2,
+				"XYZ"
+			],
+			"additiveEnvMapIntensity": 0.3,
+			"additiveEnvMapRotation": [
+				0,
+				0,
+				0,
+				"XYZ"
+			]
+		},
+		"secondsingle-metal-glossy": {
+			"roughness": 0.2,
+			"metalness": 1,
+			"color": "#797979"
+		},
+		"secondsingle-metal-brushed": {
+			"roughness": 0.85,
+			"metalness": 1,
+			"color": "#6a6a6a"
+		},
+		"thirdsingle-metal-glossy": {
+			"roughness": 0.1,
+			"metalness": 1,
+			"color": "#ffebc6"
+		},
+		"thirdsingle-metal-brushed": {
+			"roughness": 0.39,
+			"metalness": 1,
+			"color": "#ffebc6"
+		},
+		"fourthsingle-metal-glossy": {
+			"roughness": 0.1,
+			"metalness": 1,
+			"color": "#fde2d2"
+		},
+		"fourthsingle-metal-brushed": {
+			"roughness": 0.39,
+			"metalness": 1,
+			"color": "#fde2d2"
+		},
+		"firstmetal-brushed-ext": {},
+		"firstmetal-glossy-ext": {}
+	}
+}
